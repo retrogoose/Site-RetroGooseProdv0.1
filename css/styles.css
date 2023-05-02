@@ -11383,9 +11383,11 @@ p {
     color: #3b7f5d;
 }
 .section-heading .section-heading-lower {
-  display: block;
-  font-size: 3rem;
+/*  display: block;*/
+  font-size: 2rem;
   font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bg-faded {
@@ -11455,7 +11457,9 @@ p {
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
-  margin: 0.5rem;
+  margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
